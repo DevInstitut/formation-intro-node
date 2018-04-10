@@ -38,8 +38,10 @@ Exemple 2 :
 Si l'utilisateur choisit une session, le détail de la session est affiché
 
 ```
-** Vuejs, retrouver le goût des choses simple **
-*** Présentateurs : Franck Abgrall, Grégory Bévan
+*Titre* : Vuejs, retrouver le goût des choses simple **
+*Présentateurs* : Franck Abgrall, Grégory Bévan
+
+*Description*
 
 La popularité de Vue.js a connu une croissance impressionnante ces derniers mois.
 Le framework est définitivement ancrée dans les tendances 2018 du développement JavaScript.
