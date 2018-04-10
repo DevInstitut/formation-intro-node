@@ -1,6 +1,6 @@
 language: node_js
 before_script:
-  - npm install -g gitbook
+  - npm install -g gitbook-cli
 script: gitbook install && gitbook build
 deploy:
   local-dir: _book
