@@ -516,76 +516,6 @@ de la conf&#xE9;rence <strong>BreizhCamp 2018</strong> (<a href="http://www.brei
 
 Choisir une action : ...
 </code></pre><p>L&apos;application va &#xEA;tre r&#xE9;alis&#xE9;e &#xE0; l&apos;aide de NodeJS.</p>
-<ul>
-<li>Cr&#xE9;er un r&#xE9;pertoire <em>breizhcamp-2018-console</em>.</li>
-</ul>
-<ul>
-<li>Initialiser un projet via la commande <em>npm init</em>.</li>
-</ul>
-<pre><code>cd breizhcamp-2018-console
-npm init
-</code></pre><ul>
-<li>Int&#xE9;grer le module <em>devfest-2015.js</em> dans le projet :</li>
-</ul>
-<hr>
-<p>/formation-frontend
-    /01-rappels-es5
-    /02-nodejs
-        package.json
-        /data                   <1>
-            devfest-2015.js</1></p>
-<hr>
-<p><1> : r&#xE9;pertoire &#xE0; cr&#xE9;er.</1></p>
-<ul>
-<li>Cr&#xE9;er un script <em>service.js</em> :</li>
-</ul>
-<hr>
-<p>/formation-frontend
-    /01-rappels-es5
-    /02-nodejs
-        service.js <1>
-        package.json
-        /data</1></p>
-<pre><code>        devfest-2015.js
-</code></pre><hr>
-<p><1> : fichier &#xE0; ajouter.</1></p>
-<ul>
-<li>Compl&#xE9;ter le module <em>service.js</em> pour qu&apos;il expose les services suivants :
-<strong> <em>listerTousLesPresentateurs()</em> : retourne le tableau de tous les pr&#xE9;sentateurs;
-</strong> <em>listerToutesLesSessions()</em> : retourne le tableau de toutes les sessions;
-<strong> <em>trouverUneSession(idSession)</em> : retourne la session dont l&apos;identifiant est fourni;
-</strong> <em>listerTopPresentateurs()</em> : retourne uniquement les pr&#xE9;sentateurs qui ont la propri&#xE9;t&#xE9; <em>topspeaker</em> &#xE0; <em>true</em>.</li>
-</ul>
-<ul>
-<li>Cr&#xE9;er un script <em>console.js</em> :</li>
-</ul>
-<hr>
-<p>/formation-frontend
-    /01-rappels-es5
-    /02-nodejs
-        console.js <1>
-        package.json
-        service.js
-        /data</1></p>
-<pre><code>        devfest-2015.js
-</code></pre><hr>
-<p><1> : fichier &#xE0; ajouter.</1></p>
-<ul>
-<li>A l&apos;aide du module <em>readline</em> (documentation officielle : <a href="https://nodejs.org/dist/latest-v6.x/docs/api/" target="_blank">https://nodejs.org/dist/latest-v6.x/docs/api/</a>), cr&#xE9;er le menu suivant :</li>
-</ul>
-<hr>
-<p><strong><em> Application Conf&#xE9;rence </em></strong></p>
-<ol>
-<li>Liste de tous les pr&#xE9;sentateurs  <1></1></li>
-<li>Top pr&#xE9;sentateurs                <2></2></li>
-<li>Liste des sessions               <3></3></li>
-<li>D&#xE9;tail d&apos;une session             <4></4></li>
-</ol>
-<hr>
-<p><1> : affichage des pr&#xE9;noms et noms des pr&#xE9;sentateurs</1></p>
-<p><2> : affichage des pr&#xE9;noms et noms des pr&#xE9;sentateurs top</2></p>
-<p><3> : affichage des titres des sessions</3></p>
-<p><4> : demande &#xE0; l&apos;utilisateur de saisir un identifiant de session puis affiche la description et le(s) pr&#xE9;sentateur(s) de la session.</4></p>
 
                                 
                                 </section>
@@ -629,7 +559,7 @@ npm init
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Travaux Pratiques","level":"1.4","depth":1,"next":{"title":"Initialisation Projet","level":"1.4.1","depth":2,"path":"03-Travaux-Pratiques/01-initialisation-projet.md","ref":"03-Travaux-Pratiques/01-initialisation-projet.md","articles":[]},"previous":{"title":"Propriété main","level":"1.3.9","depth":2,"path":"02-npm/09-propriete-main.md","ref":"02-npm/09-propriete-main.md","articles":[]},"dir":"ltr"},"config":{"plugins":["auto-summary"],"ignores":["_book","node_modules","sources"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"auto-summary":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Rossi Oddet","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Formation Front-End","gitbook":"*"},"file":{"path":"03-Travaux-Pratiques/README.md","mtime":"2018-04-10T19:25:56.274Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-10T19:27:14.025Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Travaux Pratiques","level":"1.4","depth":1,"next":{"title":"Initialisation Projet","level":"1.4.1","depth":2,"path":"03-Travaux-Pratiques/01-initialisation-projet.md","ref":"03-Travaux-Pratiques/01-initialisation-projet.md","articles":[]},"previous":{"title":"Propriété main","level":"1.3.9","depth":2,"path":"02-npm/09-propriete-main.md","ref":"02-npm/09-propriete-main.md","articles":[]},"dir":"ltr"},"config":{"plugins":["auto-summary"],"ignores":["_book","node_modules","sources"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"auto-summary":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Rossi Oddet","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Formation Front-End","gitbook":"*"},"file":{"path":"03-Travaux-Pratiques/README.md","mtime":"2018-04-10T19:38:41.391Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-10T19:39:52.526Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
