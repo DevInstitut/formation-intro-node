@@ -3,7 +3,7 @@ node_js:
   - "9"
 before_script:
   - npm install -g gitbook-cli
-script: gitbook install && gitbook build
+script: gitbook install && gitbook build && gitbook build
 deploy:
   local-dir: _book
   provider: pages
