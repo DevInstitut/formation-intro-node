@@ -1,5 +1,5 @@
 # Variables
-Les propriétés du fichier **package.json** sont transformées en variables accessibles via **process.env.npm_package_****** dans des scripts.
+Les propriétés du fichier **package.json** sont transformées en variables accessibles via **process.env.npm_package_xxxx** dans des scripts.
 
 ```json
 "name": "super-nom",
