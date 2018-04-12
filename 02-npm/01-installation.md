@@ -2,7 +2,7 @@
 
 NPM s'installe en même temps que Node.
 
-Il peut s'utiliser en ligne de commande via la commande ==npm==.
+Il peut s'utiliser en ligne de commande via la commande **npm**.
 
 ```bash
 npm -v

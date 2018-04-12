@@ -1,6 +1,6 @@
 # Un répertoire comme module
 
-Un module peut aussi être un répertoire contenant un script ==index.js==.
+Un module peut aussi être un répertoire contenant un script **index.js**.
 
 ```bash
 /app

@@ -29,7 +29,7 @@ La commande **npm install** (ou **npm i**) récupère toutes les dépendances d�
     /underscore
     ...
 ```
----
+
 # Ajouter une nouvelle dépendances
 
 Pour ajouter une nouvelle dépendance de production :
