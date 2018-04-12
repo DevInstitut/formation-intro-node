@@ -1,6 +1,5 @@
 # Formation Introduction à NodeJS
 
-* Contribuer : https://github.com/DevInstitut/formation-intro-node
 * Version en ligne : http://www.dev-institut.fr/formation-intro-node
 
 
