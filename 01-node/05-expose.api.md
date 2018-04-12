@@ -8,7 +8,7 @@ var libelleCourant = 'valeur secrète';
 
 function lireLibelle() { return libelleCourant; }
 
-// les fonctions lire est accessible en dehors du module
+// la fonction lire est accessible en dehors du module
 exports.lire = lireLibelle;
 ```
 La fonction **require** permet de récupérer et utiliser un module.
