@@ -1,4 +1,4 @@
-# Initialiser les données sessions
+# #2 Initialiser les données sessions
 
 ## Les sessions sur le site du BreizhCamp
 

@@ -1,4 +1,4 @@
-# Initialisation Projet
+#  #1 Initialisation Projet
 
 * Créer un répertoire **breizhcamp-2018-console**.
 
